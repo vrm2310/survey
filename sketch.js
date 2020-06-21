@@ -1,6 +1,6 @@
 var playerCount=0;
 var database;
-var form,game;
+var form;
 
 function setup()
 {
@@ -8,7 +8,7 @@ function setup()
     
     var canvas=createCanvas(500,500);
     canvas.visible=false;
-    game = new Game();
+    var game = new Game();
     game.start();
 }
 
